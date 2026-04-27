@@ -1,0 +1,10 @@
+[
+  {
+    "targets": ["prometheus:9090"],
+    "labels": { "job": "prometheus" }
+  },
+  {
+    "targets": ["node-exporter:9100"],
+    "labels": { "job": "node" }
+  }
+]
